@@ -1,0 +1,37 @@
+startdate: "2023-09-18 12:00"
+
+semaines:
+  - title: "Étude de fonctions"
+  - title: "Étude de fonctions"
+  - title: "Calcul matriciel"
+  - title: "Calcul matriciel"
+  - title: "Intégration sur un segment"
+  - holidays: true
+    title : "Vacances de la Toussaint"
+  - holidays: true
+  - holidays: true
+    title : "Concours Blanc"
+  - title: "Intégration sur un segment"
+  - title: "Matrices inversibles"
+  - title: "Matrices inversibles"
+  - title: "Variables aléatoires discrètes finies"
+  - title: "Variables aléatoires discrètes finies (couples)"
+  - title: "Sommes et Séries"
+  - holidays: true
+    title : "Vacances de Noël"
+  - holidays: true
+  - title: "Sommes et Séries"
+  - title: "Variables aléatoires discrètes infinies"
+  - title: "Variables aléatoires discrètes infinies"
+  - title: "Réduction"
+  - title: "Réduction"
+  - holidays: true
+    title : "Vacances d'hiver"
+  - holidays: true
+  - holidays: true
+    title : "Concours Blanc"
+  - title: "Intégrales généralisées"
+  - title: "Intégrales généralisées"
+  - title: "Variables aléatoires à densité"
+  - title: "Variables aléatoires à densité"
+  - title: "Programme libre"

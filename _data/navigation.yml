@@ -1,0 +1,62 @@
+main:
+  - title: "ECT2"
+    url: /ect2/chapitres.html
+  - title: "D2"
+    url: /d2/chapitres.html
+  - title: "PSI"
+    url: /psi/chapitres.html
+  - title: "MPSI"
+    url: /mpsi/option_informatique.html
+  - title: "Diffusion Scientifique"
+    url: /diffusion/notes.html
+
+ect2:
+  - title: "Chapitres"
+    url: /ect2/chapitres.html
+  - title: "Colles"
+    url: /ect2/colles.html
+  - title: "Informatique"
+    url: /ect2/informatique.html
+  - title: "Devoirs"
+    url: /ect2/devoirs.html
+  - title: "Documents de travail"
+    url: /ect2/documents.html
+
+d2:
+  - title: "Chapitres"
+    url: /d2/chapitres.html
+  - title: "Colles"
+    url: /d2/colles.html
+  - title: "Devoirs"
+    url: /d2/devoirs.html
+  - title: "Documents de travail"
+    url: /d2/documents.html
+
+
+psi:
+  - title: "Chapitres"
+    url: /psi/chapitres.html
+  - title: "Colles"
+    url: /psi/colles.html
+  - title: "Informatique"
+    url: /psi/informatique.html
+  - title: "Documents de travail"
+    url: /psi/documents.html
+
+mpsi:
+  - title: "Cours & Exercices"
+    url: "http://alain.camanes.free.fr/body.php?page=mpsi_cours"
+  - title: "Problèmes"
+    url: "http://alain.camanes.free.fr/body.php?page=mpsi_devoirs"
+  - title: "Informatique"
+    url: "http://alain.camanes.free.fr/body.php?page=mpsi_info"
+  - title: "Option Informatique"
+    url: "/mpsi/option_informatique.html"
+
+diffusion:
+  - title: "Articles"
+    url: "/diffusion/notes.html"
+  - title: "Publications"
+    url: "/diffusion/publications.html"
+  - title: "Ateliers"
+    url: "/diffusion/ateliers.html"
