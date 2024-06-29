@@ -31,7 +31,7 @@ locale: "fr-FR"
 # Definitions du site
 title	 	   : "Autour des Maths"
 description	   : "Ce site contient différents documents de travail à destination des étudiants de CPGE ou autour de la diffusion scientifique."
-url	     	   : http://acamanes.github.io
+url	     	   : http://mareauq.github.io
 logo		   : /_pages/images/ico.png
 name : "Alain Camanes"
 location : "Toulouse" 
