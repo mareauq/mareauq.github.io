@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Devoirs au college
+title: Devoirs au collège
 permalink: /college/devoirs.html
 sidebar:
   nav: "college"
