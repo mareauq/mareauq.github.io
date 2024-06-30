@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Cours au collège"
-permalink: /college/chapitres.html
+permalink: /college/cours.html
 toc: true
 toc_sticky: true
 toc_label: "Au menu"
@@ -21,7 +21,7 @@ Les solutions des exercices n'ont pas été suffisamment relues et comportent en
 </i>
 
 <ul start="0" style="list-style-type:none">
-{% for chap in site.data.college.college_chapitres.chapitres %}
+{% for chap in site.data.college.college_cours.cours %}
 {% assign number = forloop.index | plus: 0 %}
 {% if number < 10 %}
 {% assign number = "0" | append:number %}
@@ -31,8 +31,8 @@ Les solutions des exercices n'ont pas été suffisamment relues et comportent en
 {% if chap.ref %}
 <a href="./ref/{{chap.ref}}" class="ref">&Sigma;</a>
 {% endif %}</h2>
-{% if chap.chapitre %}
-<a href="./chapitres/college-chap{{number}}.pdf">Cours</a>
+{% if chap.cours %}
+<a href="./cours/college-chap{{number}}.pdf">Cours</a>
 <nospace/>
 {%if chap.td or chap.tdsol%},{%else%}.{%endif%}
 {% endif %}
