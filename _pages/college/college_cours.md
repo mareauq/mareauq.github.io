@@ -16,7 +16,7 @@ sidebar:
 {% assign cpttop = 1 %}
 {% assign cpttheme = 1 %}
 
-<ul start="0" style="list-style-type:none">
+<ul start="1" style="list-style-type:none">
 {% for chap in site.data.college.college_cours.chapitres %}
 {% assign number = forloop.index | plus: -1 %}
 {% if number < 10 %}
