@@ -30,6 +30,7 @@ locale: "fr-FR"
 
 # Definitions du site
 title	 	   : "Quentin Mareau"
+title_separator          : "-"
 description	   : "Ce site regroupe l'ensemble de mes "
 url	     	   : http://mareauq.github.io
 logo		   : /_pages/images/ico.png
@@ -39,6 +40,9 @@ contact		   : quentin.mareaupro@gmail.com
 
 author:
   name: "Quentin Mareau"
+  avatar           : "/others/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Enseignant en mathématiques au Lycée Camille Saint-Saëns"
+  location         : "Paris, France"
   links:
     - label: "Email"
       icon: "fas fa-envelope-square"
