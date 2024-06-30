@@ -24,7 +24,7 @@ sidebar:
 {% endif %}
   
 <li>
-<h2 class="mycss" id="chap_{{number}}">{{number}} - {{chap.titre}}
+<a href="./cours/college-chap><h2 class="mycss" id="chap_{{number}}">{{number}} - {{chap.titre}}</a>
 {% if chap.ref %}
 <a href="./ref/{{chap.ref}}" class="ref">&Sigma;</a>
 {% endif %}</h2>
