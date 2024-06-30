@@ -1,57 +1,23 @@
 cours:
-  - titre: "Analyse réelle"
+  - titre: "Opérations sur les nombres relatifs"
     chapitre: true
-    td: true
-    tdsol: true
-  - titre: "Dénombrement"
+  - titre: "Triangles rectangles et Pythagore"
     chapitre: true
-    td: true
-    tdsol: true
-  - titre: "Probabilités"
+  - titre: "Arithmétique et nombres premiers"
     chapitre: true
-    td: true
-    tdsol: true
-  - titre: "Variables aléatoires discrètes"
+  - titre: "Opérations en écriture fractionnaire"
     chapitre: true
-    td: true
-    tdsol: true
-  - titre: "Estimation"
+  - titre: "Traitement de données"
     chapitre: true
-    td: true
-    tdsol: true
-  - titre: "Espaces vectoriels"
+  - titre: "Calcul littéral"
     chapitre: true
-    td: true
-    tdsol: true
-  - titre: "Applications linéaires"
+  - titre: "Proportionnalité"
     chapitre: true
-    td: true
-    tdsol: true
-  - titre: "Intégration"
+  - titre: "Triangles égaux et triangles semblables"
     chapitre: true
-    td: true
-    tdsol: true
-  - titre: "Variables aléatoires à densité"
+  - titre: "Équations"
     chapitre: true
-    td: true
-    tdsol: true
-  - titre: "Réduction"
+  - titre: "Solides de  l'espace"
     chapitre: true
-    td: true
-    tdsol: true
-  - titre: "Fonctions de plusieurs variables"
+  - titre: "Puissances de dix"
     chapitre: true
-    td: true
-    tdsol: true
-  - titre: "Statistiques descriptives"
-    chapitre: true
-    td: true
-    tdsol: false
-  - titre: "Relations binaires"
-    chapitre: true
-    td: false
-    tdsol: false
-  - titre: "Nombres complexes"
-    chapitre: true
-    td: true
-    tdsol: true
