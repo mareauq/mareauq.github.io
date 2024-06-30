@@ -1,10 +1,10 @@
 main:
   - title: "Collège"
-    url: /college/chapitres.html
+    url: /college/cours.html
   - title: "TSPE"
-    url: /tspe/chapitres.html
+    url: /tspe/cours.html
   - title: "TSTMG"
-    url: /tstmg/chapitres.html
+    url: /tstmg/cours.html
   - title: "ECT"
     url: /ect/colles.html
   - title: "Divers"
