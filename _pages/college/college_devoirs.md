@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Devoirs au collège
-permalink: /college/devoirs.html
+permalink: pages/college/devoirs.html
 sidebar:
   nav: "college"
 ---
