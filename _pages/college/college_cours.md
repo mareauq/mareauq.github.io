@@ -18,9 +18,9 @@ sidebar:
 
 <ul start="1" style="list-style-type:none">
 {% for chap in site.data.college.college_cours.chapitres %}
-{% assign number = forloop.index | plus: -1 %}
+{% assign number = forloop.index | plus: 0 %}
 {% if number < 10 %}
-{% assign number = "1" | append:number %}
+{% assign number = "0" | append:number %}
 {% endif %}
   
 <li>
