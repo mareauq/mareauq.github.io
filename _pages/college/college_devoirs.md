@@ -1,9 +1,9 @@
 ---
 layout: single
-title: Devoirs en d2
-permalink: /d2/devoirs.html
+title: Devoirs au college
+permalink: /college/devoirs.html
 sidebar:
-  nav: "d2"
+  nav: "college"
 ---
 
 {% assign dl = 1 %}
@@ -11,7 +11,7 @@ sidebar:
 {% assign ds = 1 %}
 
 <ol>
-{% for s in site.data.d2.d2_devoirs.devoirs %}
+{% for s in site.data.college.college_devoirs.devoirs %}
 {% if s.type == "dl" %}
 {% if dl < 10 %}
 {% assign cpt = "0" | append:dl %}
@@ -19,7 +19,7 @@ sidebar:
 {% assign cpt = dl %}
 {% endif %}
 <li id="{{s.type}}_{{cpt}}">
-<a href="./devoirs/d2-dl{{cpt}}_enonce.pdf">dl n°{{cpt}}</a> : {{s.title}}
+<a href="./devoirs/college-devoir{{cpt}}.pdf">Évaluation n°{{cpt}}</a> : 
 </li>
 {% assign dl = dl | plus: 1 %}
 
