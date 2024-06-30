@@ -17,17 +17,18 @@ sidebar:
 {% assign cpttheme = 1 %}
 
 <ul start="0" style="list-style-type:none">
-{% for chap in site.data.college.college_cours.cours %}
-{% assign number = forloop.index | plus: 0 %}
+{% for chap in site.data.college.college_cours.chapitres %}
+{% assign number = forloop.index | plus: -1 %}
 {% if number < 10 %}
 {% assign number = "0" | append:number %}
 {% endif %}
+  
 <li>
 <h2 class="mycss" id="chap_{{number}}">{{number}} - {{chap.titre}}
 {% if chap.ref %}
 <a href="./ref/{{chap.ref}}" class="ref">&Sigma;</a>
 {% endif %}</h2>
-{% if chap.cours %}
+{% if chap.chapitre %}
 <a href="./cours/college-chap{{number}}.pdf">Cours</a>
 <nospace/>
 {%if chap.td or chap.tdsol%},{%else%}.{%endif%}
