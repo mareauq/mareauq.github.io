@@ -31,7 +31,7 @@ locale: "fr-FR"
 # Definitions du site
 title	 	   : "Quentin Mareau"
 title_separator          : "-"
-description	   : "Ce site regroupe l'ensemble de mes "
+description	   : "Ce site regroupe l'ensemble de mes ressources pédagogiques entre autres choses"
 url	     	   : http://mareauq.github.io
 logo		   : /_pages/images/ico.png
 name : "Quentin Mareau"
