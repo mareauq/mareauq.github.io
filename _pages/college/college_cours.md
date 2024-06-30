@@ -28,7 +28,7 @@ sidebar:
 {% if chap.ref %}
 <a href="./ref/{{chap.ref}}" class="ref">&Sigma;</a>
 {% endif %}</h2>
-{% if chap.cours %}
+{% if chap.chapitre %}
 <a href="./cours/college-chap{{number}}.pdf">Cours</a>
 <nospace/>
 {%if chap.td or chap.tdsol%},{%else%}.{%endif%}
