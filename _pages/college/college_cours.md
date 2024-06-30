@@ -1,14 +1,14 @@
 ---
 layout: single
-title: "Cours & Exercices en D2"
-permalink: /d2/chapitres.html
+title: "Cours au collège"
+permalink: /college/chapitres.html
 toc: true
 toc_sticky: true
 toc_label: "Au menu"
 toc_levels: 1..6
 toc_icon: "infinity"
 sidebar:
-  nav: "d2"
+  nav: "college"
 ---
 
 {% assign cptfc = 1 %}
@@ -21,7 +21,7 @@ Les solutions des exercices n'ont pas été suffisamment relues et comportent en
 </i>
 
 <ul start="0" style="list-style-type:none">
-{% for chap in site.data.d2.d2_chapitres.chapitres %}
+{% for chap in site.data.college.college_chapitres.chapitres %}
 {% assign number = forloop.index | plus: 0 %}
 {% if number < 10 %}
 {% assign number = "0" | append:number %}
@@ -32,18 +32,18 @@ Les solutions des exercices n'ont pas été suffisamment relues et comportent en
 <a href="./ref/{{chap.ref}}" class="ref">&Sigma;</a>
 {% endif %}</h2>
 {% if chap.chapitre %}
-<a href="./chapitres/d2-chap{{number}}.pdf">Cours</a>
+<a href="./chapitres/college-chap{{number}}.pdf">Cours</a>
 <nospace/>
 {%if chap.td or chap.tdsol%},{%else%}.{%endif%}
 {% endif %}
 
 {% if chap.td %}
-<a href="./exercices/d2-exos_e{{number}}.pdf">Exercices</a>
+<a href="./exercices/college-exos_e{{number}}.pdf">Exercices</a>
 {%if chap.tdsol%},{%else%}.{%endif%}
 {% endif %}
 
 {% if chap.tdsol %}
-<a href="./exercices/d2-exos_s{{number}}.pdf">Solutions</a>.
+<a href="./exercices/college-exos_s{{number}}.pdf">Solutions</a>.
 {% endif %}
 </li>
 {% endfor %}
