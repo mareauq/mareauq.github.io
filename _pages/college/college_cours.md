@@ -4,7 +4,7 @@ title: "Cours au collège"
 permalink: /college/cours.html
 toc: true
 toc_sticky: true
-toc_label: "Au menu"
+toc_label: "Chapitres"
 toc_levels: 1..6
 toc_icon: "infinity"
 sidebar:
@@ -15,10 +15,6 @@ sidebar:
 {% assign cpthp = 1 %}
 {% assign cpttop = 1 %}
 {% assign cpttheme = 1 %}
-
-<i>
-Les solutions des exercices n'ont pas été suffisamment relues et comportent encore des coquilles. Utilisez les avec un regard critique et n'hésitez pas à me communiquer toute erreur que vous auriez constatée.
-</i>
 
 <ul start="0" style="list-style-type:none">
 {% for chap in site.data.college.college_cours.cours %}
@@ -38,7 +34,7 @@ Les solutions des exercices n'ont pas été suffisamment relues et comportent en
 {% endif %}
 
 {% if chap.td %}
-<a href="./exercices/college-exos_e{{number}}.pdf">Exercices</a>
+<a href="./exercices/college-chap{{number}}.pdf">Exercices</a>
 {%if chap.tdsol%},{%else%}.{%endif%}
 {% endif %}
 
