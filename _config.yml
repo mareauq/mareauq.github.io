@@ -24,25 +24,25 @@ layout : single
 remote_theme: mmistakes/minimal-mistakes
 #theme : minimal-mistakes-jekyll
 minimal_mistakes_skin : dark
-search		      : true
+search		      : false
 encoding	: "utf-8"
 locale: "fr-FR"
 
 # Definitions du site
-title	 	   : "Autour des Maths"
-description	   : "Ce site contient différents documents de travail à destination des étudiants de CPGE ou autour de la diffusion scientifique."
+title	 	   : "Quentin Mareau"
+description	   : "Ce site regroupe l'ensemble de mes "
 url	     	   : http://mareauq.github.io
 logo		   : /_pages/images/ico.png
-name : "Alain Camanes"
-location : "Toulouse" 
-contact		   : alain.camanes@free.fr
+name : "Quentin Mareau"
+location : "Paris" 
+contact		   : quentin.mareaupro@gmail.com
 
 author:
-  name: "Alain Camanes"
+  name: "Quentin Mareau"
   links:
     - label: "Email"
       icon: "fas fa-envelope-square"
-      url: "mailto:alain.camanes@free.fr"
+      url: "mailto:quentin.mareaupro@gmail.com"
 
 atom_feed:
   hide: true
