@@ -20,7 +20,7 @@ sidebar:
 {% for chap in site.data.college.college_cours.chapitres %}
 {% assign number = forloop.index | plus: -1 %}
 {% if number < 10 %}
-{% assign number = "0" | append:number %}
+{% assign number = "1" | append:number %}
 {% endif %}
   
 <li>
