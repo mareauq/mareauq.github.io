@@ -26,7 +26,7 @@ sidebar:
 <li>
 <h2 class="mycss" id="chap_{{number}}"><a href="./cours/college-chap>{{number}} - {{chap.titre}}</a></h2>
 {% if chap.chapitre %}
-<h2><a href="../cours/college-chap{{number}}.pdf">{{number}} - {{chap.titre}}</a></h2>
+<h2><a href="../_pages/college/cours{{number}}.pdf">{{number}} - {{chap.titre}}</a></h2>
 
 {% if chap.td %}
 <a href="./exercices/college-chap{{number}}.pdf">Exercices</a>
