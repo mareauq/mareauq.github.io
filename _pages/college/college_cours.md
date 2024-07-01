@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 toc_label: "Chapitres"
 toc_levels: 1..6
-toc_icon: "infinity"
+toc_icon: ""
 sidebar:
   nav: "college"
 ---
