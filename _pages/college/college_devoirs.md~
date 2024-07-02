@@ -1,53 +1,28 @@
 ---
 layout: single
-title: Devoirs en ect2
-permalink: /ect2/devoirs.html
+title: "DM du collège"
+permalink: /college/cours.html
+toc: true
+toc_sticky: true
+toc_label: "Devoirs"
+toc_levels: 1..6
+toc_icon: ""
 sidebar:
-  nav: "ect2"
+  nav: "college"
 ---
 
-{% assign dl = 1 %}
-{% assign dc = 1 %}
-{% assign ds = 1 %}
+{% assign cptfc = 1 %}
+{% assign cpthp = 1 %}
+{% assign cpttop = 1 %}
+{% assign cpttheme = 1 %}
 
-<ol>
-{% for s in site.data.ect2.ect2_devoirs.devoirs %}
-{% if s.type == "dl" %}
-{% if dl < 10 %}
-{% assign cpt = "0" | append:dl %}
-{% else %}
-{% assign cpt = dl %}
+<ul start="1" style="list-style-type:none">
+{% for dl in site.data.college.college_devoirs.devoirs %}
+{% assign number = forloop.index | plus: 0 %}
+{% if number < 10 %}
+{% assign number = "0" | append:number %}
 {% endif %}
-<li id="{{s.type}}_{{cpt}}">
-<a href="./devoirs/ect2-dl{{cpt}}_enonce.pdf">{{s.title}}</a>
-</li>
-{% assign dl = dl | plus: 1 %}
-
-{% else %}
-{% if s.type == "dc" %}
-{% if dc < 10 %}
-{% assign cpt = "0" | append:dc %}
-{% else %}
-{% assign cpt = dc %}
-{% endif %}
+  
 <li>
-<a href="./devoirs/ect2-dc{{cpt}}.pdf">{{s.title}}</a>
-</li>
-{% assign dc = dc | plus: 1 %}
+<h2 class="mycss" id="devoirs_{{number}}"><a href="../_pages/devoirs/college-devoir{{number}}.pdf">Devoir N°{{number}}</a></h2>
 
-{% else %}
-{% if s.type == "ds" %}
-{% if ds < 10 %}
-{% assign cpt = "0" | append:ds %}
-{% else %}
-{% assign cpt = ds %}
-{% endif %}
-<li>
-<a href="./devoirs/ect2-ds{{cpt}}_enonce.pdf">{{s.title}}</a>
-</li>
-{% assign ds = ds | plus: 1 %}
-{% endif %}
-{% endif %}
-{% endif %}
-{% endfor %}
-</ol>
