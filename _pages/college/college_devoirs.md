@@ -19,7 +19,7 @@ sidebar:
 {% assign cpt = dl %}
 {% endif %}
 <li id="{{s.type}}_{{cpt}}">
-<a href="./devoirs/college-devoir{{cpt}}.pdf">Évaluation n°{{cpt}}</a> : 
+<h2 class="mycss" id="devoirs_{{number}}"><a href="../_pages/college/devoirs/college-devoir{{number}}.pdf">Évaluation N°{cpt}</a></h2>
 </li>
 {% assign dl = dl | plus: 1 %}
 
@@ -51,3 +51,26 @@ sidebar:
 {% endif %}
 {% endfor %}
 </ol>
+---
+layout: single
+title: "Évaluations du collège"
+permalink: /college/devoirs.html
+toc: true
+toc_sticky: true
+toc_label: "Évaluations"
+toc_levels: 1..6
+toc_icon: ""
+sidebar:
+  nav: "college"
+---
+
+
+<ul start="1" style="list-style-type:none">
+{% for dl in site.data.college.college_devoirs.devoirs %}
+{% assign number = forloop.index | plus: 0 %}
+{% if number < 10 %}
+{% assign number = "0" | append:number %}
+{% endif %}
+  
+<li>
+<h2 class="mycss" id="devoirs_{{number}}"><a href="../_pages/devoirs/college-devoir{{number}}.pdf">Devoir N°{{number}}</a></h2>
