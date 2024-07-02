@@ -11,28 +11,24 @@ sidebar:
   nav: "college"
 ---
 
-{% assign week = 7 | times: 86400 %}
-{% assign quatrejours = 4 | times: 86400 %}
-{% assign debutsemaine = site.data.d2.d2_colles.startdate | date : "%s" %}
-{% assign finsemaine = site.data.d2.d2_colles.startdate | date : "%s" | plus: quatrejours %}
-{% assign number = 1 %}
+{% assign cptfc = 1 %}
+{% assign cpthp = 1 %}
+{% assign cpttop = 1 %}
+{% assign cpttheme = 1 %}
 
-<ol>
-{% for s in site.data.d2.d2_colles.semaines %}
+<ul start="1" style="list-style-type:none">
+{% for chap in site.data.college.college_cours.chapitres %}
+{% assign number = forloop.index | plus: 0 %}
 {% if number < 10 %}
-{% assign cpt = "0" | append:number %}
-{% else %}
-{% assign cpt = number %}
+{% assign number = "0" | append:number %}
 {% endif %}
-
-{% if s.holidays != true %}
+  
 <li>
-<h6 id="colle_{{cpt}}">{{debutsemaine| date:"%d/%m"}}-{{finsemaine| date:"%d/%m"}}</h6>
-<a href="./colles/d2-colles{{cpt}}.pdf">{{s.title}}</a>
-</li>
-{% assign number = number | plus: 1 %}
-{% else %}
-{{s.title}}
+<h2 class="mycss" id="chap_{{number}}">{{number}} - {{chap.titre}}</h2>
+{% if chap.chapitre %}
+<a href="./chapitres/d2-chap{{number}}.pdf">Cours</a>
+<nospace/>
+{%if chap.td or chap.tdsol%},{%else%}.{%endif%}
 {% endif %}
 
 {% if chap.td %}
