@@ -24,7 +24,7 @@ sidebar:
 {% assign cpt = dl %}
 {% endif %}
 <li id="{{s.type}}_{{cpt}}">
-<h2 class="mycss" id="devoirs_{{cpt}}"><a href="../_pages/college/devoirs/college-devoir{{cpt}}.pdf">Évaluation N°{cpt}</a></h2>
+<h2 class="mycss" id="devoirs_{{cpt}}"><a href="../_pages/college/devoirs/college-devoir{{cpt}}.pdf">Évaluation N°{{cpt}}</a></h2>
 </li>
 {% assign dl = dl | plus: 1 %}
 
