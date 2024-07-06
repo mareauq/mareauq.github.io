@@ -1,14 +1,14 @@
 ---
 layout: single
-title: Les Colles en d2
-permalink: /d2/colles.html
+title: Les DM au collège
+permalink: /college/dm.html
 toc: true
 toc_sticky: true
-toc_label: "Au menu"
+toc_label: "Devoirs maison"
 toc_levels: 6
-toc_icon: "infinity"
+toc_icon: ""
 sidebar:
-  nav: "d2"
+  nav: "college"
 ---
 
 {% assign week = 7 | times: 86400 %}
@@ -18,24 +18,16 @@ sidebar:
 {% assign number = 1 %}
 
 <ol>
-{% for s in site.data.d2.d2_colles.semaines %}
+{% for s in site.data.college.college_dm.dm %}
 {% if number < 10 %}
 {% assign cpt = "0" | append:number %}
 {% else %}
 {% assign cpt = number %}
 {% endif %}
 
-{% if s.holidays != true %}
 <li>
-<h6 id="colle_{{cpt}}">{{debutsemaine| date:"%d/%m"}}-{{finsemaine| date:"%d/%m"}}</h6>
-<a href="./colles/d2-colles{{cpt}}.pdf">{{s.title}}</a>
+<h2 class="mycss" id="dm_{{cpt}}"><a href="../_pages/college/dm/college-dm{{cpt}}.pdf">Devoir Maison N°{{cpt}}</a></h2>
 </li>
-{% assign number = number | plus: 1 %}
-{% else %}
-{{s.title}}
-{% endif %}
 
-{% assign debutsemaine = debutsemaine | date : "%s" | plus: week %}
-{% assign finsemaine = finsemaine | date : "%s" | plus: week %}
 {% endfor %}
 </ol>
