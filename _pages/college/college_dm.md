@@ -15,18 +15,16 @@ sidebar:
 {% assign quatrejours = 4 | times: 86400 %}
 {% assign debutsemaine = site.data.d2.d2_colles.startdate | date : "%s" %}
 {% assign finsemaine = site.data.d2.d2_colles.startdate | date : "%s" | plus: quatrejours %}
-{% assign number = 1 %}
 
 <ol>
 {% for s in site.data.college.college_dm.dm %}
+{% assign number = forloop.index | plus: 0 %}
 {% if number < 10 %}
-{% assign cpt = "0" | append:number %}
-{% else %}
-{% assign cpt = number %}
+{% assign number = "0" | append:number %}
 {% endif %}
 
 <li>
-<h2 class="mycss" id="dm_{{cpt}}"><a href="../_pages/college/dm/college-dm{{cpt}}.pdf">Devoir Maison N°{{cpt}}</a></h2>
+<h2 class="mycss" id="dm_{{number}}"><a href="../_pages/college/dm/college-dm{{number}}.pdf">Devoir Maison N°{{number}}</a></h2>
 </li>
 
 {% endfor %}
