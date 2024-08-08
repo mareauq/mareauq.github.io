@@ -26,9 +26,9 @@ sidebar:
 <li id="{{dev.type}}_{{cpt}}">
 <h2 class="mycss" id="devoirs_{{cpt}}"><a href="../_pages/college/devoirs/college-devoir{{cpt}}.pdf">Évaluation N°{{cpt}}</a></h2>
 </li>
-{% if dev.correc}
+{% if dev.correc %}
 <a href="../_pages/college/devoirs/college-correcdevoir{{cpt}}.pdf">Correction</a>
-{% endif}
+{% endif %}
 {% assign dl = dl | plus: 1 %}
 
 {% else %}
