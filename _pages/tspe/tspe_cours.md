@@ -29,7 +29,7 @@ sidebar:
 {% endif %}
 
 {% if chap.td %}
-<a href="./exercices/tspe-chap{{number}}.pdf">Exercices</a>
+<a href="../_pages/tspe/exercices/tspe-chap{{number}}.pdf">Exercices</a>
 {% endif %}
 
 {% if chap.tdsol %}
