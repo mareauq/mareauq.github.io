@@ -1,13 +1,10 @@
 devoirs:
-  - type: dl
-    correc : true
+  - type: ds
+    correc : false
     title: 
-  - type: dl
+  - type : inte
     correc : true
-    title: 
-  - type: dl
+    title : 
+  - type : ds
     correc : true
-    title: 
-  - type: dl
-    correc : true
-    title: 
+    title : 
