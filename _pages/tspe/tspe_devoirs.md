@@ -16,7 +16,9 @@ sidebar:
 
 <ol>
 {% for dev in site.data.tspe.tspe_devoirs.devoirs %}
+
 {% if dev.type == "ds" %}
+
 {% if ds < 10 %}
 {% assign cpt = "0" | append:ds %}
 {% else %}
@@ -33,18 +35,20 @@ sidebar:
 {% else %}
 
 {% if dev.type == "inte" %}
-{% inte < 10 %}
+
+{% if inte < 10 %}
 {% assign cpt = "0" | append:inte %}
 {% else %}
 {% assign cpt = inte %}
 {% endif %}
 <li id="{{dev.type}}_{{cpt}}">
-<h2 class="mycss" id="devoirs_{{cpt}}"><a href="../_pages/tspe/devoirs/tspe-devoir{{cpt}}.pdf">Interrogation n°{{cpt}}</a></h2>
+<h2 class="mycss" id="devoirs_{{cpt}}"><a href="../_pages/tspe/devoirs/tspe-inte{{cpt}}.pdf">Interrogation n°{{cpt}}</a></h2>
 </li>
 {% if dev.correc %}
 <a href="../_pages/tspe/devoirs/tspe-correcinterro{{cpt}}.pdf">Correction</a>
 {% endif %}
 {% assign inte = inte | plus: 1 %}
+
 {% endif %}
 {% endfor %}
 </ol>
