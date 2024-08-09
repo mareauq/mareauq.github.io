@@ -45,7 +45,7 @@ sidebar:
 <h2 class="mycss" id="devoirs_{{cpt}}"><a href="../_pages/tspe/devoirs/tspe-inte{{cpt}}.pdf">Interrogation n°{{cpt}}</a></h2>
 </li>
 {% if dev.correc %}
-<a href="../_pages/tspe/devoirs/tspe-correcinterro{{cpt}}.pdf">Correction</a>
+<a href="../_pages/tspe/devoirs/tspe-correcinte{{cpt}}.pdf">Correction</a>
 {% endif %}
 {% assign inte = inte | plus: 1 %}
 
