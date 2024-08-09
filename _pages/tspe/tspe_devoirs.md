@@ -50,5 +50,7 @@ sidebar:
 {% assign inte = inte | plus: 1 %}
 
 {% endif %}
+
+{% endif %}
 {% endfor %}
 </ol>
