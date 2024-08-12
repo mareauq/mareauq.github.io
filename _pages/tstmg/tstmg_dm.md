@@ -1,6 +1,6 @@
 ---
 layout: single
-title: DM de TSPE
+title: DM de TSTMG
 permalink: /tstmg/dm.html
 toc: true
 toc_sticky: true
