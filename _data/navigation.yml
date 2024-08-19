@@ -7,8 +7,6 @@ main:
     url: /tstmg/cours.html
   - title: "ECT"
     url: /ect/colles.html
-  - title: "Divers"
-    url: /divers/notes.html
 
 college:
   - title: "Cours"
@@ -17,8 +15,8 @@ college:
     url: /college/dm.html
   - title: "Devoirs"
     url: /college/devoirs.html
-  - title: "Documents de travail"
-    url: /college/documents.html
+  - title: "Divers"
+    url: /college/divers.html
 
 tspe:
   - title: "Cours"
@@ -27,8 +25,8 @@ tspe:
     url: /tspe/dm.html
   - title: "Devoirs"
     url: /tspe/devoirs.html
-  - title: "Documents de travail"
-    url: /tspe/documents.html
+  - title: "Divers"
+    url: /tspe/divers.html
 
 
 tstmg:
@@ -38,13 +36,9 @@ tstmg:
     url: /tstmg/dm.html
   - title: "Devoirs"
     url: /tstmg/devoirs.html
-  - title: "Documents de travail"
-    url: /tstmg/documents.html
+  - title: "Divers"
+    url: /tstmg/divers.html
 
 ect:
   - title: "Colles"
     url: /ect/colles.html
-
-divers:
-  - title: "Divers"
-    url: "/divers/notes.html"
