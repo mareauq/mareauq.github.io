@@ -1,2 +1,5 @@
 chapitres:
+  - titre : "Suites numériques"
+    chapitre : true
+    td : false
   
