@@ -2,4 +2,6 @@ chapitres:
   - titre : "Raisonnement par récurrence"
     chapitre : true
     td : true
-
+  - titre : "Géométrie vectorielle dans l’espace"
+    chapitre : true
+    td : true
