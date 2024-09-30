@@ -13,6 +13,7 @@ sidebar:
 
 {% assign ds = 1 %}
 {% assign inte = 1 %}
+{% assign dc = 1 %}
 
 <ol>
 {% for dev in site.data.tspe.tspe_devoirs.devoirs %}
