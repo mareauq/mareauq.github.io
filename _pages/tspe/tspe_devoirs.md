@@ -50,12 +50,8 @@ sidebar:
 {% endif %}
 {% assign inte = inte | plus: 1 %}
 
-{% endif %}
-
 {% else %}
-
 {% if dev.type == "dc" %}
-
 {% if dc < 10 %}
 {% assign cpt = "0" | append:dc %}
 {% else %}
@@ -70,7 +66,7 @@ sidebar:
 {% assign dc = dc | plus: 1 %}
 
 {% endif %}
-
+{% endif %}
 {% endif %}
 {% endfor %}
 </ol>
