@@ -51,6 +51,25 @@ sidebar:
 
 {% endif %}
 
+{% else %}
+
+{% if dev.type == "dc" %}
+
+{% if dc < 10 %}
+{% assign cpt = "0" | append:dc %}
+{% else %}
+{% assign cpt = dc %}
+{% endif %}
+<li id="{{dev.type}}_{{cpt}}">
+<h2 class="mycss" id="devoirs_{{cpt}}"><a href="../_pages/tspe/devoirs/tspe-dc{{cpt}}.pdf">Devoir commun n°{{cpt}}</a></h2>
+</li>
+{% if dev.correc %}
+<a href="../_pages/tspe/devoirs/tspe-correcdc{{cpt}}.pdf">Correction</a>
+{% endif %}
+{% assign dc = dc | plus: 1 %}
+
+{% endif %}
+
 {% endif %}
 {% endfor %}
 </ol>

@@ -1,4 +1,6 @@
 devoirs:
   - type : inte
     correc : true
+  - type : dc
+    correc : true
   
