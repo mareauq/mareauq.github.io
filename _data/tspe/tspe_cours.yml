@@ -5,3 +5,4 @@ chapitres:
   - titre : "Géométrie vectorielle dans l’espace"
     chapitre : true
     td : true
+    tdsol : true
