@@ -6,3 +6,6 @@ chapitres:
     chapitre : true
     td : true
     tdsol : true
+  - titre : "Limites de suites"
+    chapitre : true
+    td : true
