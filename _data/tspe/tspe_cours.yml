@@ -9,3 +9,4 @@ chapitres:
   - titre : "Limites de suites"
     chapitre : true
     td : true
+    tdsol : true
