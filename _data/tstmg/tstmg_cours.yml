@@ -2,4 +2,7 @@ chapitres:
   - titre : "Suites numériques"
     chapitre : true
     td : false
+  - titre : "Fonctions exponentielles"
+    chapitre : true
+    td : false
   
