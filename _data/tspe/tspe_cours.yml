@@ -10,3 +10,7 @@ chapitres:
     chapitre : true
     td : true
     tdsol : true
+  - titre : "Limites de fonctions"
+    chapitre : true
+    td : true
+    tdsol : false
