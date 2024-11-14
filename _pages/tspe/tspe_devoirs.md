@@ -26,7 +26,7 @@ sidebar:
 {% assign cpt = ds %}
 {% endif %}
 <li id="{{dev.type}}_{{cpt}}">
-<h2 class="mycss" id="devoirs_{{cpt}}"><a href="../_pages/tspe/devoirs/tspe-ds{{cpt}}.pdf">Devoir surveillé n°{{cpt}}</a></h2>
+<h2 class="mycss" id="devoirs_{{cpt}}"><a href="../_pages/tspe/devoirs/tspe-ds{{cpt}}.pdf">Évaluation n°{{cpt}}</a></h2>
 </li>
 {% if dev.correc %}
 <a href="../_pages/tspe/devoirs/tspe-correcds{{cpt}}.pdf">Correction</a>
