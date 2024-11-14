@@ -14,3 +14,7 @@ chapitres:
     chapitre : true
     td : true
     tdsol : false
+  - titre : "Compléments sur la dérivation"
+    chapitre : true
+    td : true
+    tdsol : false
