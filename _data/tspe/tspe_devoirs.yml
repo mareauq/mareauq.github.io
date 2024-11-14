@@ -3,6 +3,6 @@ devoirs:
     correc : true
   - type : dc
     correc : true
-  - type : eval
+  - type : ds
     correc : false
   
