@@ -18,3 +18,7 @@ chapitres:
     chapitre : true
     td : true
     tdsol : false
+    - titre : "Convexité"
+    chapitre : true
+    td : true
+    tdsol : false
