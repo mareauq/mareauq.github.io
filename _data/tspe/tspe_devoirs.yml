@@ -4,5 +4,5 @@ devoirs:
   - type : dc
     correc : true
   - type : ds
-    correc : false
+    correc : true
   
