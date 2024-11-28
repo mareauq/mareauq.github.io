@@ -5,4 +5,6 @@ devoirs:
     correc : true
   - type : ds
     correc : true
+  - type : inte
+    correc : true
   

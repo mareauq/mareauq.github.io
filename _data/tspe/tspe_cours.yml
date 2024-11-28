@@ -22,3 +22,8 @@ chapitres:
     chapitre : true
     td : true
     tdsol : false
+  - titre : "Combinatoire et dénombrement"
+    chapitre : true
+    td : true
+    tdsol : false
+
