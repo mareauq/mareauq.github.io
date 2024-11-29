@@ -6,7 +6,7 @@ main:
   - title: "TSTMG"
     url: /tstmg/cours.html
   - title: "ECT"
-    url: /ect/ect1/colles.html
+    url: /ect/ect1colles.html
 
 college:
   - title: "Cours"
