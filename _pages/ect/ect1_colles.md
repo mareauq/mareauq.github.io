@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Colles d'ECT1
-permalink: /ect/ect1/colles.html
+permalink: /ect/ect1colles.html
 toc: false
 sidebar:
   nav: "ect1"
