@@ -15,7 +15,7 @@ sidebar:
 {% endif %}
 
 <li>
-<h2 class="mycss" id="divers_{{number}}"><a href="../_pages/tspe/divers/divers-doc{{number}}.pdf">{{s.title}}</a></h2>
+<h2 class="mycss" id="divers_{{number}}"><a href="../_pages/tspe/divers/tspe-doc{{number}}.pdf">{{s.title}}</a></h2>
 </li>
 {% endfor %}
 </ol>

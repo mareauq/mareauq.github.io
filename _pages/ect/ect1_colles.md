@@ -1,10 +1,10 @@
 ---
 layout: single
-title: Colles d'ECT1
+title: "Colles d'ECT1"
 permalink: /ect/ect1colles.html
 toc: false
 sidebar:
-  nav: "ect1"
+  nav: "ect"
 ---
 
 <ol>
