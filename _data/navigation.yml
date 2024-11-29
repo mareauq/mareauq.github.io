@@ -40,5 +40,7 @@ tstmg:
     url: /tstmg/divers.html
 
 ect:
-  - title: "Colles"
-    url: /ect/colles.html
+  - title: "ECT"
+    url: /ect/ect1/colles.html
+  - title: "Colles ECT2"
+    url: /ect/ect2/colles.html
