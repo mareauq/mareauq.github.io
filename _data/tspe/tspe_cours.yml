@@ -26,4 +26,8 @@ chapitres:
     chapitre : true
     td : true
     tdsol : false
+  - titre : "Succession d'évènements - Loi binomiale"
+    chapitre : true
+    td : true
+    tdsol : false
 
