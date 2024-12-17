@@ -30,4 +30,5 @@ chapitres:
     chapitre : true
     td : true
     tdsol : false
+    comp : true
 
