@@ -22,7 +22,7 @@ sidebar:
 <h2 class="mycss" id="dm_{{number}}"><a href="../_pages/tstmg/dm/tstmg-dm{{number}}.pdf">Devoir Maison n°{{number}}</a></h2>
 </li>
 {% if s.correc %}
-<a href="../_pages/tspe/dm/tstmg-correcdm{{number}}.pdf">Correction</a>
+<a href="../_pages/tstmg/dm/tstmg-correcdm{{number}}.pdf">Correction</a>
 {% endif %}
 {% endfor %}
 </ol>
