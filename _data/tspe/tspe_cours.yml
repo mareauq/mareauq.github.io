@@ -31,4 +31,9 @@ chapitres:
     td : true
     tdsol : false
     comp : true
+  - titre : "Logarithme népérien"
+    chapitre : true
+    td : true
+    tdsol : false
+    comp : false
 
