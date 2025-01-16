@@ -36,4 +36,9 @@ chapitres:
     td : true
     tdsol : false
     comp : false
+  - titre : "Orthogonalité et distances dans l’espace"
+    chapitre : true
+    td : true
+    tdsol : false
+    comp : true
 
