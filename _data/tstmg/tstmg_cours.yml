@@ -8,3 +8,6 @@ chapitres:
   - titre : "Logarithme décimal"
     chapitre : true
     td : false
+  - titre : "Fonction inverse"
+    chapitre : true
+    td : false

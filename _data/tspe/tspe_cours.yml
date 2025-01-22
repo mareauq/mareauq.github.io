@@ -41,4 +41,9 @@ chapitres:
     td : true
     tdsol : false
     comp : true
+  - titre : "Continuité"
+    chapitre : true
+    td : true
+    tdsol : false
+    comp : true
 
