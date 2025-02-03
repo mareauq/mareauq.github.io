@@ -11,4 +11,6 @@ devoirs:
     correc : true
   - type : inte
     correc : true
+  - type : ds
+    correc : true
   
