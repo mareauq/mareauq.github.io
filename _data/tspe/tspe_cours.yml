@@ -46,4 +46,9 @@ chapitres:
     td : true
     tdsol : false
     comp : true
+  - titre : "Représentations paramétriques et équations cartésiennes"
+    chapitre : true
+    td : true
+    tdsol : false
+    comp : false
 
