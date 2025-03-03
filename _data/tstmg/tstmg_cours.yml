@@ -11,3 +11,6 @@ chapitres:
   - titre : "Fonction inverse"
     chapitre : true
     td : false
+- titre : "Séries statistiques"
+    chapitre : true
+    td : false

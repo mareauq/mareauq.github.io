@@ -51,4 +51,9 @@ chapitres:
     td : true
     tdsol : true
     comp : false
+  - titre : "Primitives"
+    chapitre : true
+    td : true
+    tdsol : false
+    comp : false
 
