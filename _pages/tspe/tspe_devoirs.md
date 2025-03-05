@@ -68,6 +68,7 @@ sidebar:
 {% else %}
 
 {% if dev.type == "bb" %}
+{% assign cpt = bb %}
 <li id="{{dev.type}}_{{cpt}}">
 <h2 class="mycss" id="devoirs_{{cpt}}"><a href="../_pages/tspe/devoirs/tspe-bb{{cpt}}.pdf"> {{dev.title}}</a></h2>
 </li>
