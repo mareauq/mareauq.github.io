@@ -15,3 +15,9 @@ devoirs:
     correc : true
   - type : dc
     correc : true
+  - type : bb
+    correc : true
+    title : "Baccalauréat Blanc (Sujet 1)"
+  - type : bb
+    correc : true
+    title : "Baccalauréat Blanc (Sujet 2)"

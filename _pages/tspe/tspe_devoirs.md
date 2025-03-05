@@ -36,7 +36,6 @@ sidebar:
 {% else %}
 
 {% if dev.type == "inte" %}
-
 {% if inte < 10 %}
 {% assign cpt = "0" | append:inte %}
 {% else %}
@@ -51,6 +50,7 @@ sidebar:
 {% assign inte = inte | plus: 1 %}
 
 {% else %}
+
 {% if dev.type == "dc" %}
 {% if dc < 10 %}
 {% assign cpt = "0" | append:dc %}
@@ -65,6 +65,18 @@ sidebar:
 {% endif %}
 {% assign dc = dc | plus: 1 %}
 
+{% else %}
+
+{% if dev.type == "bb" %}
+<li id="{{dev.type}}_{{cpt}}">
+<h2 class="mycss" id="devoirs_{{cpt}}"><a href="../_pages/tspe/devoirs/tspe-bb{{cpt}}.pdf"> {{dev.title}}</a></h2>
+</li>
+{% if dev.correc %}
+<a href="../_pages/tspe/devoirs/tspe-correcbb{{cpt}}.pdf">Correction</a>
+{% endif %}
+{% assign bb = bb | plus: 1 %}
+
+{% endif %}
 {% endif %}
 {% endif %}
 {% endif %}
