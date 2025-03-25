@@ -61,4 +61,9 @@ chapitres:
     td : true
     tdsol : false
     comp : false
+  - titre : "Sommes de variables de aleatoires"
+    chapitre : true
+    td : true
+    tdsol : false
+    comp : false
 
