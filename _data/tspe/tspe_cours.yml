@@ -66,4 +66,9 @@ chapitres:
     td : true
     tdsol : false
     comp : false
+  - titre : "Calcul intégral"
+    chapitre : true
+    td : true
+    tdsol : false
+    comp : false
 
