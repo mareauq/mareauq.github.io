@@ -5,4 +5,4 @@ dm:
     correc : true
   - titre : "Préparation au Grand Oral"
   - titre : ""
-    correc : false
+    correc : true

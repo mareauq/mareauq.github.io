@@ -23,3 +23,5 @@ devoirs:
     title : "Baccalauréat Blanc (Sujet 2)"
   - type : inte
     correc : true
+  - type : ds
+    correc : true

@@ -3,8 +3,14 @@ devoirs:
     correc : true
   - type : ds
     correc : true
+  - type : inte
+    correc : false
   - type : ds
     correc : false
   - type : ds
+    correc : false
+  - type : ds
+    correc : false
+  - type : inte
     correc : false
   
