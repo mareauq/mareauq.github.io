@@ -76,3 +76,13 @@ chapitres:
     td : true
     tdsol : false
     comp : false
+  - titre : "Concentration et loi des grands nombres"
+    chapitre : true
+    td : true
+    tdsol : false
+    comp : false
+  - titre : "Compléments"
+    chapitre : true
+    td : false
+    tdsol : false
+    comp : false
