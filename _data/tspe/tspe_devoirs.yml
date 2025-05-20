@@ -25,3 +25,5 @@ devoirs:
     correc : true
   - type : ds
     correc : true
+  - type : dc
+    correc : true
