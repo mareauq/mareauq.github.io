@@ -1,0 +1,31 @@
+papier:
+  - titre : "Algorithme LLL de réduction de réseaux"
+    annee : 2021
+    published : false
+    context : "Travail d'étude et de recherche - Master 1 Mathématiques Générales"
+    url : "https://mareauq.github.io/perso/papiers/Memoire_LLL.pdf"
+
+  - titre : "Homologie et conjecture de Quillen"
+    annee : 2021
+    published : false
+    context : "Mémoire de fin d'études - Magistère de Mathématiques"
+    url : "https://mareauq.github.io/perso/papiers/Memoire_Quillen.pdf"
+
+  - titre : "Quotients of the Cantor set for the action of a free group"
+    annee : 2023
+    published : false
+    context : "Mémoire de fin d'études - Master 2 Research and Innovation"
+    url : "https://mareauq.github.io/perso/papiers/Memoire_Rtree.pdf"
+
+  - titre : "SNARKs in Constrained Systems: A Study on Verifier Implementation"
+    annee : 2026
+    published : false
+    context : "Rapport de stage (Ledger) - Master 2 Algèbre Appliquée"
+    url : "https://mareauq.github.io/perso/papiers/SE-SNARK_report.pdf"
+
+  - titre : "Construction of a SNARK from the FRI protocol"
+    annee : 2026
+    published : false
+    context : "Mémoire personnel - Master 2 Algèbre Appliquée"
+    url : "https://mareauq.github.io/perso/papiers/FRI-SNARK_report.pdf"
+

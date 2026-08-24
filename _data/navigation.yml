@@ -7,6 +7,8 @@ main:
     url: /tstmg/cours.html
   - title: "ECT"
     url: /ect/ect1colles.html
+  - title: "Travail personnel"
+    url: /perso/papiers.html
 
 college:
   - title: "Cours"
@@ -18,6 +20,7 @@ college:
   - title: "Divers"
     url: /college/divers.html
 
+
 tspe:
   - title: "Cours"
     url: /tspe/cours.html
@@ -27,7 +30,6 @@ tspe:
     url: /tspe/devoirs.html
   - title: "Divers"
     url: /tspe/divers.html
-
 
 tstmg:
   - title: "Cours"
@@ -44,3 +46,7 @@ ect:
     url: /ect/ect1colles.html
   - title: "Colles ECT2"
     url: /ect/ect2colles.html
+
+perso:
+  - title: "Papiers"
+    url: /perso/papiers.html
