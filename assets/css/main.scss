@@ -9,10 +9,6 @@ $background-color: #243832;
 $primary-color: #4f7f65;
 $link-color: #9bcf9b;
 $text-color: #e6ece8;
-// $text-color: #b7c4cd;
-
-//$link-color: #718c9e;
-
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials

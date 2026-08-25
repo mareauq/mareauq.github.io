@@ -11,11 +11,6 @@ sidebar:
   nav: "college"
 ---
 
-{% assign cptfc = 1 %}
-{% assign cpthp = 1 %}
-{% assign cpttop = 1 %}
-{% assign cpttheme = 1 %}
-
 <ul start="1" style="list-style-type:none">
 {% for chap in site.data.college.college_cours.chapitres %}
 {% assign number = forloop.index | plus: 0 %}

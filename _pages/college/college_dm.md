@@ -11,11 +11,6 @@ sidebar:
   nav: "college"
 ---
 
-{% assign week = 7 | times: 86400 %}
-{% assign quatrejours = 4 | times: 86400 %}
-{% assign debutsemaine = site.data.d2.d2_colles.startdate | date : "%s" %}
-{% assign finsemaine = site.data.d2.d2_colles.startdate | date : "%s" | plus: quatrejours %}
-
 <ol>
 {% for s in site.data.college.college_dm.dm %}
 {% assign number = forloop.index | plus: 0 %}
@@ -29,6 +24,5 @@ sidebar:
 {% if s.correc %}
 <a href="../_pages/college/dm/college-correcdm{{number}}.pdf">Correction</a>
 {% endif %}
-{% assign dl = dl | plus: 1 %}
 {% endfor %}
 </ol>

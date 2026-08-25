@@ -34,7 +34,6 @@ sidebar:
 
 {% for papier in papiers %}
   {% if papier.published %}
-    {% assign has_published = true %}
 <div class="papier">
   <h3><a href="{{ papier.url }}">{{ papier.titre }}</a></h3>
   <div class="papier-meta">
